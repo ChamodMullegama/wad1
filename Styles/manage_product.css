@@ -1,0 +1,114 @@
+.add_product {
+  margin-top: 25px;
+  height: 50%;
+}
+
+.add-product-form {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: gray;
+}
+
+.add-product-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fac031;
+  color: black;
+  cursor: pointer;
+  font-size: large;
+}
+
+.btn:hover {
+  background-color: #b48307;
+}
+
+.product-cards,
+.gallery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.product-card,
+.gallery-card {
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 250px;
+  background-color: gray;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.product-card h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: white;
+}
+
+.card_form {
+  width: 100%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.delete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card_form {
+  width: 100%;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: darken(#3498db, 10%);
+}
+
+.delete-btn {
+  margin-left: 8px;
+}

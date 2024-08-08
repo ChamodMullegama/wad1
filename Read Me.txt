@@ -1,0 +1,25 @@
+**** Gallery Cafe ****
+
+**Database Name: Gallery_Cafe 
+
+**Recommended PHP Version 7.4, 8.1.**
+
+**customer verification will involve accessing the database and updating their active status based on their email during registration and login**
+
+**regisied customer Login Details**
+
+Email: test@gmail.com
+Password: 12345678
+
+
+**Admin Login Details**
+
+user name: gcadmin
+Password: 1234
+
+
+**Staff Login Details**
+
+user name: staff
+Password: 1234
+
